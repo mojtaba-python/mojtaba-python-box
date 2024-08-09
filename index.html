@@ -11,8 +11,8 @@
 
 <body>
     <div class="App-header">
-        <div class="div_container">
-            <div class="sec1">
+        <div id="div_box"  class="div_container">
+            <div id="box" onmouseenter="mouseDown()" onmouseleave="mouseBlur()"  class="sec1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-envelope-at" viewBox="0 0 16 16">
                     <path
@@ -25,8 +25,8 @@
                 <span>mojtaba.kalie@gmail.com</span>
             </div>
         </div>
-        <div class="div_container">
-            <div class="sec1">
+        <div id="div_box2" class="div_container">
+            <div id="box2" class="sec1" onmouseenter="mouseDown2()" onmouseleave="mouseBlur2()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-phone"
                     viewBox="0 0 16 16">
                     <path
@@ -38,8 +38,8 @@
                 <span>09375674194</span>
             </div>
         </div>
-        <div class="div_container">
-            <div class="sec1">
+        <div id="div_box3" class="div_container">
+            <div id="box3" class="sec1" onmouseenter="mouseDown3()" onmouseleave="mouseBlur3()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt"
                     viewBox="0 0 16 16">
                     <path
@@ -52,7 +52,7 @@
             </div>
         </div>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

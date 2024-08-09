@@ -21,25 +21,21 @@
     background-color: aliceblue;
     position: relative;
   }
-  .div_container:hover{
-    z-index: 0;
-  }
+ 
   .sec1{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(89 152 238);
-    color: aliceblue;
+    background-color: #5998ee;
+    color: #f0f8ff;
     font-size: larger;
     transition: all 400ms ease 100ms;
+   
+    
   }
-  .sec1:hover {
-    transform: translateY(-30px);
-    background-color: rgb(133, 177, 237);
-    color:#145e14
-  }
+
   
   .sec2{
     height: 30px;
