@@ -8,25 +8,25 @@ const box3 = document.getElementById("box3");
 const divBox3 = document.getElementById("div_box3");
 
 function mouseDown() {
-    box.style.cssText="transform: translateY(-30px); background-color: 5998ee;color:#145e14";
+    box.style.cssText="transform: translateY(-30px);  background-color: #6ea7f8; color:#145e14";
     divBox.style.zIndex="1";
 }
 
 function mouseBlur() {
-    box.style.cssText="transform: translateY(0); background-color: #5998ee;color:#f0f8ff";
+    box.style.cssText="transform: translateY(0); background-color: #5998ee; color:#f0f8ff";
 }
 
 function mouseDown2() {
-    box2.style.cssText="transform: translateY(-30px);  background-color: 5998ee;color:#145e14";
+    box2.style.cssText="transform: translateY(-30px);  background-color: #6ea7f8; color:#145e14";
     divBox2.style.zIndex="1";
 }
 
 function mouseBlur2() {
-    box2.style.cssText="transform: translateY(0); background-color: #5998ee;color:#f0f8ff";
+    box2.style.cssText="transform: translateY(0); background-color: #5998ee; color:#f0f8ff";
 }
 
 function mouseDown3() {
-    box3.style.cssText="transform: translateY(-30px);background-color: 5998ee;color:#145e14";
+    box3.style.cssText="transform: translateY(-30px);background-color: #6ea7f8; color:#145e14";
     divBox3.style.zIndex="1";
 }
 
